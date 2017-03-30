@@ -9,11 +9,11 @@ Overview
 
 ``QCodeEditor`` is a light code editor widget based on ``QPlainTextEdit`` and provides the following features:
 
-    - **numberBar** - set by DISPLAY_LINE_NUMBERS flag True
+- **line numbers bar** - set by DISPLAY_LINE_NUMBERS flag True
     
-    - **curent line highligthing** - set by HIGHLIGHT_CURRENT_LINE flag True
+- **curent line highligthing** - set by HIGHLIGHT_CURRENT_LINE flag True
    
-    - **syntax highlighting** - setting up a ``QSyntaxHighlighter``. As an example XML syntax highlighter was used.
+- **syntax highlighting** - setting up a ``QSyntaxHighlighter``. As an example XML syntax highlighter was used.
 
 Widget is compatible with Python 2.7 or Python 3.3+ and PyQt4 4.6+ or PyQt5 5.2+.
 
