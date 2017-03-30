@@ -1,12 +1,12 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 '''
-Created on Thu Feb  9 18:13:18 2017
-
+Licensed under the terms of the MIT License 
+https://github.com/luchko/QCodeEditor
 @author: Ivan Luchko (luchko.ivan@gmail.com)
 
-This module contains the definition of the text widget with support 
-of line numbers bar and the syntax and current line highlight
+This module contains the light QPlainTextEdit based QCodeEditor widget which 
+provides the line numbers bar and the syntax and the current line highlighting.
 
     class XMLHighlighter(QSyntaxHighlighter):
     class QCodeEditor(QPlainTextEdit):
@@ -204,10 +204,18 @@ class QCodeEditor(QPlainTextEdit):
                 
         
     def __init__(self, DISPLAY_LINE_NUMBERS=True, HIGHLIGHT_CURRENT_LINE=True,
-                 SyntaxHighlighter=None, *args):
+                 SyntaxHighlighter=None, *args):        
+        '''
+        Parameters
+        ----------
+        DISPLAY_LINE_NUMBERS : bool 
+            defines the presence of the lines number bar
+        HIGHLIGHT_CURRENT_LINE : bool
+            switch on/off the current line highliting
+        SyntaxHighlighter : QSyntaxHighlighter
+            should be inherited from QSyntaxHighlighter
         
-        '''SyntaxHighlighter should be inherited from QSyntaxHighlighter'''
-        
+        '''                  
         super(QCodeEditor, self).__init__()
         
         self.setFont(QFont("Ubuntu Mono", 11))
