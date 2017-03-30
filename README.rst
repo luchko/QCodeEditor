@@ -43,11 +43,11 @@ API
                 switch on/off the current line highliting
             SyntaxHighlighter : QSyntaxHighlighter
                 should be inherited from QSyntaxHighlighter            
-            '''                  
-        
+            '''                          
+
 References:
 ===========
 
-- http://www.yasinuludag.com/blog/?p=49  - XMLHighlighter
+- XMLHighlighter: http://www.yasinuludag.com/blog/?p=49
 - https://john.nachtimwald.com/2009/08/19/better-qplaintextedit-with-line-numbers/    
 - http://doc.qt.io/qt-5/qtwidgets-widgets-codeeditor-example.htmls
