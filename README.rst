@@ -3,6 +3,7 @@ QCodeEditor widget (PyQt)
 
 - Git-hub repo: https://github.com/luchko/QCodeEditor
 - Free software: MIT license
+sdsd
 
 Overview
 ========
