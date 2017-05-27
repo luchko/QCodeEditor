@@ -123,8 +123,8 @@ class QCodeEditor(QPlainTextEdit):
     '''
     QCodeEditor inherited from QPlainTextEdit providing:
         
-        numberBar - set by DISPLAY_LINE_NUMBERS flag True
-        curent line highligthing - set by HIGHLIGHT_CURRENT_LINE flag True
+        numberBar - set by DISPLAY_LINE_NUMBERS flag equals True
+        curent line highligthing - set by HIGHLIGHT_CURRENT_LINE flag equals True
         setting up QSyntaxHighlighter
 
     references:
@@ -209,7 +209,7 @@ class QCodeEditor(QPlainTextEdit):
         Parameters
         ----------
         DISPLAY_LINE_NUMBERS : bool 
-            defines the presence of the lines number bar
+            switch on/off the presence of the lines number bar
         HIGHLIGHT_CURRENT_LINE : bool
             switch on/off the current line highliting
         SyntaxHighlighter : QSyntaxHighlighter
