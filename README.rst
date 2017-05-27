@@ -9,9 +9,9 @@ Overview
 
 ``QCodeEditor`` is a light code editor widget based on ``QPlainTextEdit`` and provides the following features:
 
-- **line numbers bar** - set by DISPLAY_LINE_NUMBERS flag True
+- **line numbers bar** - set by ``DISPLAY_LINE_NUMBERS`` flag equals ``True``
     
-- **curent line highligthing** - set by HIGHLIGHT_CURRENT_LINE flag True
+- **curent line highligthing** - set by ``HIGHLIGHT_CURRENT_LINE`` flag equals ``True``
    
 - **syntax highlighting** - setting up a ``QSyntaxHighlighter``. As an example XML syntax highlighter was used.
 
